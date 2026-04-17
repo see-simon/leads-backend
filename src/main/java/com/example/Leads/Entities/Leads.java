@@ -11,7 +11,7 @@ import jakarta.persistence.GenerationType;
 @Table
 public class Leads {
 
-    // add primary key identifier required by JPA
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
