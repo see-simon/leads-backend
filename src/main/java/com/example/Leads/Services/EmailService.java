@@ -28,7 +28,7 @@ public class EmailService {
                         "Phone: " + phone+ " interested in your services  " +  description +" needs to be called "
         );
 
-        message.setFrom("sea6580@gmail.com");
+        message.setFrom("marcialebogang7@gmail.com");
 
         mailSender.send(message);
     }
