@@ -18,7 +18,7 @@ public class EmailService {
 
         SimpleMailMessage message = new SimpleMailMessage();
 
-        message.setTo("marcialebogang7@gmail.com");
+        message.setTo("mpelemanethobejane@gmail.com");
         message.setSubject("New Lead Received");
 
         message.setText(
@@ -27,8 +27,8 @@ public class EmailService {
                         "Email: " + email + "\n" +
                         "Phone: " + phone+ " interested in your services  " +  description +" needs to be called "
         );
-
-        message.setFrom("marcialebogang7@gmail.com");
+//        marcialebogang7@gmail.com
+        message.setFrom("mpelemanethobejane@gmail.com");
 
         mailSender.send(message);
     }
